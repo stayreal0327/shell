@@ -3,6 +3,7 @@
 # echo $line
 #done
 
+aaaabbbbccdd
 
 while read -r line
 do
