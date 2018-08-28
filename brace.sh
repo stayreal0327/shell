@@ -1,3 +1,5 @@
+#!/bin/bash
+
 file_full_name="/data/a/b/c/d/te*st.m3u8"
 echo "original fille full path: $file_full_name";
 
