@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #awk [-F|-f|-v] ‘BEGIN{} //{command1; command2} END{}’ file
 awk '{print $1}'  /etc/passwd;
 awk -F":" '{print $1}'  /etc/passwd 
