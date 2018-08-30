@@ -17,3 +17,6 @@ awk -F: '{print $NF}' /etc/passwd                              //将每行第NF�
 awk -F: 'NF>2{print $0}' /etc/passwd                       //显示每行字段数量大于2的行
 awk '{print NR,$0}' /etc/passwd                                 //输出每行的行号
 awk -F: '{print NR,NF,$NF,"\t",$0}' /etc/passwd      //依次打印行号，字段数，最后字段值，制表符，每行内容
+
+#打印匹配到joke的下一行
+awk '/joke/{getline; print}' sed.test
