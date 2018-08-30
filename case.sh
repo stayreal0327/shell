@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo '输入 1 到 4 之间的数字:'
 echo '你输入的数字为:'
 read aNum

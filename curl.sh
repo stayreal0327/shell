@@ -1,3 +1,4 @@
+#!/bin/bash
 # -L, --location      Follow redirects (H)
 # -C, --continue-at OFFSET  Resumed transfer offset
 # --retry NUM   Retry request NUM times if transient problems occur

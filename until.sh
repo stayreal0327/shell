@@ -1,3 +1,4 @@
+#!/bin/bash
 a=0
 
 until [ ! $a -lt 10 ]
